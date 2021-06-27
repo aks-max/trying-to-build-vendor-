@@ -45,8 +45,8 @@ jobs:
              repo init -u https://android.googlesource.com/platform/manifest -b master
              repo sync
              
-      
-         - name: Build
+     
+       - name: Build
          run: |
               cd work
               . build/envsetup.sh &&lunch omni_$DEVICE-eng &&export ALLOW_MISSING_DEPENDENCIES=true && mka $TARGET
