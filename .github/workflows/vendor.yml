@@ -45,8 +45,7 @@ jobs:
              git config –global user.name “aks-glitch”
              repo init -u https://android.googlesource.com/platform/manifest -b master
              repo sync
-             
-     
+                 
        - name: Build
          run: |
               cd work
@@ -61,3 +60,6 @@ jobs:
          with:
           name: recoveryimage
           path: work/out/target/product/*/*.img
+
+     
+    
