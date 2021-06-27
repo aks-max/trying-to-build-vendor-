@@ -41,9 +41,9 @@ jobs:
          run: |
              mkdir aosp
              cd aosp
-             git config –global user.email “aksbrar48@gmail.com” 
-             git config –global user.name “aks-glitch”
-             repo init -u https://android.googlesource.com/platform/manifest -b master --global
+             git config –global user.email “bhanbhullar@gmail.com” 
+             git config –global user.name “aks-max”
+             repo init -u https://android.googlesource.com/platform/manifest -b master 
              repo sync
                  
        - name: Build
