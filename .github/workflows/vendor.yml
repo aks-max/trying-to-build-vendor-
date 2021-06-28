@@ -44,7 +44,7 @@ jobs:
              git config --global user.name aks-max
 
              git config --global user.email kasambrar04@gmail.com
-             repo init -u https://android.googlesource.com/platform/manifest 
+             repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
              repo sync
                  
       
