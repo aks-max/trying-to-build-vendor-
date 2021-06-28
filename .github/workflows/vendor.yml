@@ -46,17 +46,4 @@ jobs:
              repo init -u https://android.googlesource.com/platform/manifest -b master 
              repo sync
                  
-       #- name: Build
-         run: |
-            
-             
-       #- uses: actions/upload-artifact@v2
-         with:
-          
-
-       #- uses: actions/upload-artifact@v2
-         with:
-          
-
-     
-    
+      
